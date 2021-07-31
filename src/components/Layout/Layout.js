@@ -5,12 +5,13 @@ const layout = (props) => {
     return (
         <Aux>
             <div> Toolbar, SiderDrawer, BackDrop</div>
-            <main >
+            <main className={classes.Content}>
                 {props.children}
             </main>
 
         </Aux>
+
     )
 }
 
-export default layout
+export default layout;
