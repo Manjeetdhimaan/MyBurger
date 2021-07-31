@@ -21,6 +21,6 @@ const buildControls = (props) => (
          disabled={props.disabled[ctrl.type]}/>
        ))}  
     </div>
-);
+)
 
 export default buildControls;
